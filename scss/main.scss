@@ -1,0 +1,561 @@
+@import "bootstrap.min";
+@import "./_animate.css";
+.animated {
+    animation-delay: 0.2s;
+  }
+#ftco-navbar{
+position: -webkit-sticky;
+position: sticky;
+top: 0px;
+z-index: 100;
+}
+.star{
+    float: right;
+}
+@media (max-width: 575px) {
+    #ftco-navbar{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 4px;
+        z-index: 100;
+        }
+    #carouselExampleFade {
+        display: none;
+    }
+
+    .card-deck {
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+.card-brief-сharacteristics {
+    font-size: 10px;
+    color: rgb(107, 107, 107)
+}
+
+.img-banner-1 {
+    position: absolute;
+    width: 50%;
+    top: 119px;
+    right: 809px;
+}
+
+.img-banner-2 {
+    position: absolute;
+    width: 50%;
+    top: 0px;
+    left: 834px;
+}
+
+.banner-lead {
+    margin-bottom: 45px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.card-linck {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.link {
+    transition: 1s;
+    animation: spin 3s;
+}
+
+.link:hover {
+    text-decoration: none;
+    transform: translate3d(8px, 8px, 8px);
+}
+
+.price {
+    font-size: 2em;
+    color: rgb(131, 0, 0);
+    .price-dc{
+        text-decoration: line-through;
+        color: lighten(#000000,70%);
+    }
+    .price-sale{
+        color: rgb(131, 0, 0);
+    }
+}
+
+.heading-section {
+    .big {
+        font-family: "Lato", Arial, sans-serif;
+        position: absolute;
+        top: -81px;
+        left: 0;
+        right: 0;
+        font-size: 150px;
+        color: rgba(0, 0, 0, 0.04);
+        font-weight: 900;
+        letter-spacing: 1px;
+
+        @media (max-width: 575px) {
+            display: none;
+            background-color: rgb(161, 161, 161);
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+            font-size: 100px;
+        }
+        @media (min-width: 992px) and (max-width: 1199px){
+            font-size: 100px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+}
+
+.ftco-footer {
+    font-size: 18px;
+    padding: 7em 0;
+    color: #000000;
+}
+
+.ftco-section-parallax {
+    .container-fluid {
+        @media (max-width: 575px) {
+            padding: 0;
+            margin: 0;
+        }
+        @media (min-width: 768px) and (max-width: 991px){
+            padding: 0 4em;
+        }
+    }
+
+    .justify-content-center {
+        @media (max-width: 575px) {
+            text-align: center;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 18px;
+                margin: 5px;
+            }
+        }
+    }
+
+    .parallax-img {
+        position: relative;
+        padding: 7em 0;
+        background: #fff;
+
+        @media (max-width: 575px) {
+            padding: 2em 0;
+            background: #ffffff;
+        }
+
+        .form-group {
+            margin-bottom: 0rem;
+
+            @media (max-width: 575px) {
+                width: 225px;
+                margin-bottom: 0;
+            }
+        }
+
+    }
+
+}
+
+.text-center {
+    margin-top: 30px;
+}
+.status {
+    position: absolute;
+    top: 10px;
+    left: -1px;
+    padding: 2px 15px;
+    color: #000000;
+    font-weight: 300;
+    background: #f1b8c4;
+}
+
+.product {
+    @media (max-width: 575px) {
+        margin-bottom: 30px;
+    }
+}
+
+.cart-list {
+    @media (max-width: 575px) {
+        overflow-x: scroll;
+    }
+}
+
+.ftco-footer {
+    .ftco-footer-widget {
+        .block-23 ul li {
+            @media (max-width: 575px) {
+                margin-bottom: 30px;
+            }
+        }
+
+        ul li {
+            font-size: 14px;
+            margin-bottom: 24px;
+
+            @media (max-width: 575px) {
+                display: inline-block;
+                font-size: 14px;
+                padding: 5px;
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+        }
+
+        h2 {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.bg-light {
+    background: #f8f9fa !important;
+}
+
+.ftco-section {
+    padding: 3em 0;
+    position: relative;
+}
+
+.contact-section .contact-form {
+    width: 100%;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+.block-9 .form-control {
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+}
+
+.form-control {
+    height: 52px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    border: 1px rgb(0, 0, 0) solid;
+
+    @media (max-width: 575px) {
+        font-size: 14px;
+        padding: 0px !important;
+        padding-left: 1em !important;
+    }
+}
+
+.textarea.form-control {
+    height: inherit !important;
+}
+
+.info {
+    width: 500px;
+}
+
+.block-23 li {
+    list-style-type: none;
+}
+
+.text-block-center {
+    margin: 285px auto;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.text-block-center p {
+    padding: 0px 50px;
+}
+
+.wrap-about .heading-section-bold h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    color: #000000;
+
+    @media (max-width: 575px) {
+        margin-top: 1rem !important;
+    }
+
+}
+
+.heading-section-bold p {
+    font-size: 16px;
+}
+
+.user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.testimony-wrap {
+    .user-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 0;
+        color: #000000;
+    }
+
+    @media (max-width: 575px) {
+        margin-top: 0;
+    }
+}
+
+.table tbody tr td {
+    text-align: center !important;
+    vertical-align: middle;
+    padding: 40px 10px;
+    border: 1px solid transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+
+    .product-name {
+        width: 30%;
+    }
+
+    .img {
+        display: block;
+        width: 143px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .quantity {
+        width: 20%;
+    }
+}
+
+.product-details {
+    @media (max-width: 575px) {
+        .btn {
+            font-size: 14px;
+            width: 345px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.cart-total {
+    width: 100%;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.ftco-cart .form-control {
+    height: 54px !important;
+    text-align: center;
+    bordeR: 1px solid rgba(0, 0, 0, 0.05) !important;
+    color: #000000 !important;
+    padding: 0;
+    font-size: 14px;
+}
+
+.price2 {
+    font-size: 1.5em;
+    color:#894646;
+    .price-dc2{
+        text-decoration: line-through;
+        color: lighten(#000000,70%);
+    }
+    .price-sale2{
+        color: #000000;
+    }
+
+    @media (max-width: 575px) {
+        margin-right: 0px;
+    }
+}
+
+.product .text {
+    background: #fff;
+    position: relative;
+}
+
+.img-prod {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    //img {
+    //    transform: scale(1.0);
+    //    @include transition(.3s);
+    //}
+
+    &:hover,
+    &:focus {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.product .text .rating {
+    width: 54%;
+    float: right;
+
+    @media (max-width: 575px) {
+        padding-left: 0px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        width: 100%;
+        margin: 0;
+    }
+    @media (min-width: 992px) and (max-width: 1199px){
+            width: 100%;
+            margin: 0;
+
+    }
+
+}
+
+.ftco-section {
+    padding: 3em 0;
+    position: relative;
+
+    @media (max-width: 575px) {
+        .mini-img {
+            width: 371px;
+            height: 427px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        #carouselExampleIndicators {
+            @media (max-width: 575px) {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .testimony-section {
+            height: 200px;
+        }
+    }
+}
+
+.mini-block {
+    @media (max-width: 575px) {
+        width: 50%;
+        margin: 0px;
+        padding: 5px;
+
+        h5 {
+            font-size: 15px;
+        }
+
+        h4 {
+            font-size: 12px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 10px;
+            padding: 0px;
+        }
+
+        .mini-img {
+            width: 100px;
+        }
+
+    }
+}
+
+.hero-wrap.hero-bread {
+    padding: 7em 0;
+    background-image: url(../assets/Regional_Galaxy_Banner2.jpg);
+    margin-top: 42px;
+
+    h1 {
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        color: rgb(48, 48, 48);
+    }
+
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    @media (max-width: 575px) {
+        background-size: cover;
+        background-position: 73px 0;
+        height: 100px;
+        padding: 0;
+        margin-top: 30px;
+    }
+}
+
+.hero-wrap,
+.img,
+.blog-img,
+.user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 126px 0px;
+}
+
+#map {
+    width: 100%;
+    @media (max-width: 575px) {
+        width: 100%;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        width: 100%;
+        margin: 0;
+    }
+    @media (min-width: 992px) and (max-width: 1199px){
+            width: 100%;
+            margin: 0;
+}
+}
+.map{
+    width: 100%;
+    height: 100%;
+    @media (max-width: 575px) {
+        width: 100%;
+        height: 100%;
+    }
+}
+.btnHelp{
+    border: 0;
+    background-color: #0000;
+}

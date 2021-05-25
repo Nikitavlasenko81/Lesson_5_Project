@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/all.min.css">
+</head>
+<body>
+<!--Nav-->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-navbar-light-2 bg-primary"
+     id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Samsung</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link hover-to-drop" href="#popular">Популярные товары</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Galaxy watch.html">Galaxy watch</a>
+                        <a class="dropdown-item" href="Galaxy Tab.html">Galaxy Tab S5e LTE</a>
+                        <a class="dropdown-item" href="Galaxy m20.html">Galaxy m20</a>
+                        <a class="dropdown-item" href="Galaxy A.html">Galaxy A</a>
+                        <a class="dropdown-item" href="Galaxy note 9.html">Galaxy note 9</a>
+                        <a class="dropdown-item" href="Galaxy S10 Plus.html">Galaxy S10+ Ceramic 1 TB</a>
+                        <a class="dropdown-item" href="Galaxy S10 Plus.html">Galaxy S10+ | S10 | S10e</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="Category.html" class="nav-link">Категории</a></li>
+                <li class="nav-item"><a href="About.html" class="nav-link">О Нас</a></li>
+                <li class="nav-item"><a href="Contact.html" class="nav-link">Контакты</a></li>
+                <li class="nav-item cta cta-colored active"><a href="Cart.html" class="nav-link">
+                    <i class="fas fa-shopping-basket fa-lg"></i> <span class="badge badge-pill badge-dark">2</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End of Nav -->
+
+<!--Oder-section-->
+    <section class="ftco-section ftco-cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ftco-animate wow fadeInUp" data-wow-offset="100">
+                    <div class="cart-list">
+                        <table class="table">
+                            <thead class="thead-primary">
+                                <tr class="text-center text-primary">
+                                    <th>&nbsp;</th>
+                                    <th>&nbsp;</th>
+                                    <th>Товар</th>
+                                    <th>Цена</th>
+                                    <th>Количество</th>
+                                    <th>Итог</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-center table-light">
+                                    <td class="product-remove"><a href="#"><button type="button" class="close" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button></a></td>
+
+                                    <td class="image-prod"><img class="img" src="assets/Galaxy S10+ 1.jpg" alt=""></td>
+
+                                    <td class="product-name">
+                                        <h4>Samsung Galaxy S10</h4>
+                                        <p> SM-G973 DS 128GB Green (SM-G973FZGD)</p>
+                                    </td>
+
+                                    <td class="price2">29999&#8372</td>
+
+                                    <td class="quantity">
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="quantity"
+                                                class="quantity form-control input-number border-secondary" value="1"
+                                                min="1" max="100">
+                                        </div>
+                                    </td>
+
+                                    <td class="total text-primary">29 999&#8372</td>
+
+                                </tr><!-- END TR-->
+
+                                <tr class="text-center">
+                                    <td class="product-remove"><a href="#"><button type="button" class="close" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button></a></td>
+
+                                    <td class="image-prod"><img class="img" src="assets/Galaxy Watch 1.jpg" alt=""></td>
+
+                                    <td class="product-name">
+                                        <h4>Galaxy watch</h4>
+                                        <p>(SM-R800NZSA) 46mm Rose Gold</p>
+                                    </td>
+
+                                    <td class="price2">9499&#8372</td>
+
+                                    <td class="quantity">
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="quantity"
+                                                class="quantity form-control input-number border-secondary" value="1"
+                                                min="1" max="100">
+                                        </div></td>
+
+                                    <td class="total text-primary">9 499&#8372</td>
+                                </tr><!-- END TR-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-end ">
+                <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate wow fadeInUp" data-wow-offset="100">
+                    <div class="cart-total mb-3 border-secondary">
+                        <h3>Всего в корзине</h3>
+                        <p class="d-flex">
+                            <span>Промежуточный итог:</span>
+                            <span>39 498 Грн</span>
+                        </p>
+                        <p class="d-flex">
+                            <span>Доставка: </span>
+                            <span>0.00</span>
+                        </p>
+                        <p class="d-flex">
+                            <span>Скидка: </span>
+                            <span>480 Грн.</span>
+                        </p>
+                        <hr>
+                        <p class="d-flex total-price">
+                            <span>Всего: </span>
+                            <span>39 010 Грн</span>
+                        </p>
+                    </div>
+                    <p class="text-center"><a href="checkout.html" class="btn btn-primary py-3 px-4">Оформить заказ</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--End of Oder-section-->
+
+<!--Popular-Products-section-->
+<section id="popular" class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-3 pb-3 mt-md-5">
+            <div class="col-md-12 heading-section text-center ftco-animate wow fadeInUp" data-wow-offset="100">
+                <h1 class="big">Products</h1>
+                <h2>Популярные Продукты</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-sm col-md-6 col-lg mt-md-4 ftco-animate wow fadeInUp" data-wow-offset="100">
+                <div class="product">
+                    <a href="#" class="img-prod"><img class="img-fluid" src="assets/Galaxy A7 1 .jpg"
+                                                      alt="Colorlib Template"></a>
+                    <div class="text py-3 px-3">
+                        <h5><a href="#">Galaxy A7</a></h5>
+                        <div class="d-flex">
+                            <div class="pricing mr-4">
+                                <p class="price2 mr-3"><span>6999&#8372</span></p>
+                            </div>
+                            <div class="rating ml-4">
+                                <p class="star ml-5">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="bottom-area d-flex">
+                            <a href="#" class="add-to-cart"><span>Добавить в корзину <i class="fas fa-plus"></i></span></a>
+                            <a href="#" class="ml-auto"><span><i class="far fa-heart"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg mt-md-4 ftco-animate wow fadeInUp" data-wow-offset="100">
+                <div class="product">
+                    <a href="#" class="img-prod"><img class="img-fluid" src="assets/Galaxy m20 1.jpg"
+                                                      alt="Colorlib Template"></a>
+                    <div class="text py-3 px-3">
+                        <h5><a href="#">Galaxy M20</a></h5>
+                        <div class="d-flex">
+                            <div class="pricing mr-4">
+                                <p class="price2 mr-3"><span>4577&#8372</span></p>
+                            </div>
+                            <div class="rating ml-4">
+                                <p class="star ml-5">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="bottom-area d-flex">
+                            <a href="#" class="add-to-cart"><span>Добавить в корзину <i class="fas fa-plus"></i></span></a>
+                            <a href="#" class="ml-auto"><span><i class="far fa-heart"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg mt-md-4 ftco-animate wow fadeInUp" data-wow-offset="100">
+                <div class="product">
+                    <a href="#" class="img-prod"><img class="img-fluid" src="assets/Galaxy Note 9 1.jpg"
+                                                      alt="Colorlib Template"></a>
+                    <div class="text py-3 px-3">
+                        <h5><a href="#">Galaxy Note 9</a></h5>
+                        <div class="d-flex">
+                            <div class="pricing mr-4">
+                                <p class="price2 mr-3"><span>34999&#8372</span></p>
+                            </div>
+                            <div class="rating ml-4">
+                                <p class="star ml-5">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="bottom-area d-flex">
+                            <a href="#" class="add-to-cart"><span>Добавить в корзину <i class="fas fa-plus"></i></span></a>
+                            <a href="#" class="ml-auto"><span><i class="far fa-heart"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-md-6 col-lg mt-md-4 ftco-animate wow fadeInUp" data-wow-offset="100">
+                <div class="product">
+                    <a href="#" class="img-prod"><img class="img-fluid" src="assets/Galaxy S10+ 1.jpg"
+                                                      alt="Colorlib Template"></a>
+                    <div class="text py-3 px-3">
+                        <h5><a href="#">Galaxy S10+</a></h5>
+                        <div class="d-flex">
+                            <div class="pricing mr-4">
+                                <p class="price2 mr-3"><span>53569&#8372</span></p>
+                            </div>
+                            <div class="rating ml-4">
+                                <p class="star ml-5">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="bottom-area d-flex">
+                            <a href="#" class="add-to-cart"><span>Добавить в корзину<i
+                                    class="fas fa-plus"></i></span></a>
+                            <a href="#" class="ml-auto"><span><i class="far fa-heart"></i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Popular-Products-section-->
+
+      <!--Footer-->
+        <footer class="ftco-footer bg-light ftco-section">
+          <div class="container">
+            <div class="row mb-2">
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Modist</h2>
+                  <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                    <li class="ftco-animate wow fadeInUp"><a href="https://twitter.com"><i class="fab fa-twitter fa-3x"></i></span></a>
+                    </li>
+                    <li class="ftco-animate wow fadeInUp"><a href="https://www.facebook.com"><i class="fab fa-facebook-f fa-3x"></i></a>
+                    </li>
+                    <li class="ftco-animate wow fadeInUp"><a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-5">
+                  <h2 class="ftco-heading-2">Меню</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html" class="py-2 d-block">Магазин</a></li>
+                    <li><a href="About.html" class="py-2 d-block">О Нас</a></li>
+                    <li><a href="Contact.html" class="py-2 d-block">Контакты</a></li>
+                    <li><a href="#" class="py-2 d-block">Популярные</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Помощь</h2>
+                  <div class="d-flex">
+                    <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                      <li><button type="button" class="py-2 d-block btnHelp" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Информация о доставке</button></li>
+                      <li><button type="button" class="py-2 d-block btnHelp" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Возврат &amp; Обмнен</button></li>
+                      <li><button type="button" class="py-2 d-block btnHelp" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Темы &amp; Условия</button></li>
+                      <li><button type="button" class="py-2 d-block btnHelp" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Политика конфиденциальности</button></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Есть вопросы?</h2>
+                  <div class="block-23 mb-3">
+                    <ul>
+                      <li><i class="fas fa-map-marker-alt"></i></span><span class="text"> 203 Fake St. Mountain View, San
+                          Francisco, California, USA</span></li>
+                      <li><a href="#"><i class="fas fa-phone"></i></span><span class="text"> +2 392 3929 210</span></a></li>
+                      <li><a href="#"><i class="fas fa-envelope"></i><span class="text"> info@yourdomain.com</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>
+                  Samsung Shop &copy;<script>
+                    document.write(new Date().getFullYear());
+                  </script> All rights reserved | This project was done by Vlasenko Nikita
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      
+
+</body>
+
+</html>
